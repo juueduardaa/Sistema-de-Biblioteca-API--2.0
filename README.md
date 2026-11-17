@@ -3,7 +3,7 @@
 API RESTful para gerenciar uma biblioteca: leitores, carteirinhas, livros, autores, categorias e empréstimos.
 Usa Spring Boot 4.1.1, Java 17+, Spring Data JPA, H2, Bean Validation, Spring HATEOAS e Springdoc OpenAPI (Swagger).
 
-> **Status de validação (leia antes de entregar):** foi feita uma revisão estática do código e foram
+> **Status de validação:** foi feita uma revisão estática do código e foram
 > ajustados os testes de integração, mas **a compilação e os testes ainda não foram executados com sucesso**
 > neste ambiente porque o Maven Wrapper não conseguiu baixar o Maven Central. Execute os testes no IntelliJ
 > antes de considerar a entrega validada. Veja a seção "Como confirmar que está funcionando".
@@ -45,7 +45,7 @@ mvnw.cmd spring-boot:run      # Windows
 
 ## 3. Como confirmar que está funcionando
 
-**Opção A — rodar os testes (recomendado):** no IntelliJ, clique com o botão direito na pasta `src/test/java`
+**Opção A — rodar os testes :** no IntelliJ, clique com o botão direito na pasta `src/test/java`
 → **Run 'All Tests'**. Os testes de integração sobem a aplicação de verdade e verificam:
 - `/v3/api-docs` lista os recursos, `/swagger-ui/index.html` e o CSS personalizado respondem 200;
 - autenticação por chave, revogação, idempotência (repetição e conflito), rate limiting (429 e cabeçalhos), CORS, versionamento e o fluxo de cadastro/empréstimo/devolução;
