@@ -1,0 +1,245 @@
+
+/* =========================================
+   SISTEMA DE BIBLIOTECA - SWAGGER UI
+   Tema azul bebê e tons pastéis
+========================================= */
+
+/* FUNDO GERAL */
+body {
+  background: #eaf4fc !important;
+}
+
+.swagger-ui {
+  background: #eaf4fc;
+  font-family: Arial, sans-serif;
+}
+
+.swagger-ui .wrapper {
+  max-width: 100%;
+  padding: 0 20px;
+}
+
+/* BARRA SUPERIOR */
+.swagger-ui .topbar {
+  background: #75a9d1;
+  padding: 10px 0;
+}
+
+.swagger-ui .topbar-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.swagger-ui .topbar-wrapper img,
+.swagger-ui .topbar-wrapper .link svg {
+  display: none;
+}
+
+.swagger-ui .topbar-wrapper .link::after {
+  content: "Sistema de Biblioteca";
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+/* TÍTULO E DESCRIÇÃO */
+.swagger-ui .info {
+  margin: 25px 0 35px;
+}
+
+.swagger-ui .info .title {
+  color: #355875;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.swagger-ui .info p,
+.swagger-ui .info li {
+  color: #526577;
+  line-height: 1.6;
+}
+
+/* VERSÃO DA API */
+.swagger-ui .info .title small {
+  background: #83c7a5;
+  color: white;
+  border-radius: 12px;
+}
+
+/* ÁREA DE AUTORIZAÇÃO */
+.swagger-ui .scheme-container {
+  background: #f5faff;
+  border: 1px solid #d3e6f5;
+  border-radius: 8px;
+  box-shadow: none;
+  padding: 15px;
+}
+
+/* BOTÃO AUTHORIZE */
+.swagger-ui .btn.authorize {
+  color: #4d9b78;
+  border-color: #72c69b;
+  border-radius: 5px;
+  background: white;
+}
+
+.swagger-ui .btn.authorize svg {
+  fill: #4d9b78;
+}
+
+/* BOTÃO FECHAR AUTORIZAÇÃO */
+.swagger-ui .btn {
+  border-radius: 5px;
+}
+
+/* TÍTULOS DAS CATEGORIAS */
+.swagger-ui .opblock-tag {
+  color: #355875;
+  font-size: 20px;
+  font-weight: 700;
+  border-bottom: 1px solid #cbdfee;
+  padding: 15px 5px;
+}
+
+.swagger-ui .opblock-tag small {
+  color: #66839c;
+  font-weight: 400;
+}
+
+/* CONFIGURAÇÃO GERAL DOS ENDPOINTS */
+.swagger-ui .opblock {
+  border-radius: 5px;
+  margin: 8px 0;
+  box-shadow: none;
+}
+
+.swagger-ui .opblock .opblock-summary {
+  border-radius: 5px;
+}
+
+.swagger-ui .opblock .opblock-summary-method {
+  border-radius: 3px;
+  min-width: 55px;
+}
+
+/* GET - VERDE */
+.swagger-ui .opblock.opblock-get {
+  background: #e7f6ed;
+  border: 1px solid #a9ddbd;
+}
+
+.swagger-ui .opblock.opblock-get .opblock-summary-method {
+  background: #91d2a9;
+}
+
+/* POST - AZUL */
+.swagger-ui .opblock.opblock-post {
+  background: #e7f0fc;
+  border: 1px solid #b4d0f1;
+}
+
+.swagger-ui .opblock.opblock-post .opblock-summary-method {
+  background: #91b9e8;
+}
+
+/* PUT - AMARELO */
+.swagger-ui .opblock.opblock-put {
+  background: #fff5df;
+  border: 1px solid #efd39a;
+}
+
+.swagger-ui .opblock.opblock-put .opblock-summary-method {
+  background: #f0cd83;
+}
+
+/* PATCH - VERDE ÁGUA */
+.swagger-ui .opblock.opblock-patch {
+  background: #e5f7f4;
+  border: 1px solid #a8ded5;
+}
+
+.swagger-ui .opblock.opblock-patch .opblock-summary-method {
+  background: #91d4c8;
+}
+
+/* DELETE - VERMELHO */
+.swagger-ui .opblock.opblock-delete {
+  background: #fdebec;
+  border: 1px solid #efb8bc;
+}
+
+.swagger-ui .opblock.opblock-delete .opblock-summary-method {
+  background: #e9a1a5;
+}
+
+/* TEXTOS DOS ENDPOINTS */
+.swagger-ui .opblock-summary-description {
+  color: #526577;
+}
+
+.swagger-ui .opblock-summary-path {
+  color: #3e5368;
+}
+
+/* ÁREA DE DETALHES DOS ENDPOINTS */
+.swagger-ui .opblock-body {
+  background: #f8fbff;
+}
+
+.swagger-ui .opblock-section-header {
+  background: #edf5fc;
+  box-shadow: none;
+}
+
+/* SCHEMAS */
+.swagger-ui section.models {
+  border: 1px solid #d3e6f5;
+  border-radius: 6px;
+  background: #f5faff;
+}
+
+.swagger-ui section.models h4 {
+  color: #355875;
+}
+
+.swagger-ui .model-box {
+  background: #eaf4fc;
+}
+
+/* CAMPOS E ENTRADAS */
+.swagger-ui input,
+.swagger-ui select,
+.swagger-ui textarea {
+  border: 1px solid #c8dbea;
+  border-radius: 5px;
+}
+
+/* BOTÕES DE EXECUÇÃO */
+.swagger-ui .btn.execute {
+  background: #75a9d1;
+  border-color: #75a9d1;
+}
+
+.swagger-ui .btn.execute:hover {
+  background: #568ebc;
+}
+
+/* RESPOSTAS E TABELAS */
+.swagger-ui table thead tr td,
+.swagger-ui table thead tr th {
+  color: #355875;
+}
+
+.swagger-ui .response-col_status {
+  color: #4d9b78;
+}
+
+/* ESPAÇAMENTO E LEGIBILIDADE */
+.swagger-ui .markdown p,
+.swagger-ui .markdown li {
+  line-height: 1.6;
+}
+
+.swagger-ui .model-title {
+  color: #355875;
+}
